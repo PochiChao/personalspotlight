@@ -75,14 +75,14 @@ export default function Learnings() {
           </LearningSection>
           <LearningSection title="YouTube Channels">
             <Learning title="Fireship">
-              To round out the "hard" learning sessions and reduce the fatigue of rapid learning for new coders, {" "}
+              To round out the &quot;hard&quot; learning sessions and reduce the fatigue of rapid learning for new coders, {" "}
               <Link
                 href="https://www.youtube.com/@Fireship"
                 className="text-blue-400"
               >
                 Fireship
               </Link>
-               {" "} is such a great channel for "soft" learning through entertaining yet info-packed videos. 
+               {" "} is such a great channel for &quot;soft&quot; learning through entertaining yet info-packed videos. 
             </Learning>
           </LearningSection>
           <LearningSection title="Troubleshooting Refs other than StackOverflow">
@@ -92,7 +92,7 @@ export default function Learnings() {
                 href="https://bobbyhadz.com/"
                 className="text-blue-400"
               >
-                BobbyHadz' website
+                BobbyHadz&apos; website
               </Link>
                {" "}, and his website and articles have a super clean UI with clear, thorough explanations of bugs. 
             </Learning>

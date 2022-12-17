@@ -198,8 +198,8 @@ export default function Home() {
             Software designer, mechanical engineer, and amateur chef.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Hi! I'm Pochi, a software designer and mechanical engineer based in Houston, TX.
-            I’m currently learning Python and data science, and I'm interested in applications for 
+            Hi! I&apos;m Pochi, a software designer and mechanical engineer based in Houston, TX.
+            I&apos;m currently learning Python and data science, and I&apos;m interested in applications for 
             Large Language Model (LLM) Artificial Intelligence (AI), clean energy technologies, 
             data analysis in sports, and manufacturing in the US.
           </p>

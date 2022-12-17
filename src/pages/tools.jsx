@@ -51,7 +51,7 @@ export default function Uses() {
                 href="https://www.amazon.com/gp/product/B075JYG2TB/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&th=1"
                 className="text-blue-400"
               >
-                32" stand-up desk converter from Amazon.
+                32&quot; stand-up desk converter from Amazon.
               </Link>
             </Tool>
             <Tool title='15" Asus Portable Monitor for on-the-go development'>

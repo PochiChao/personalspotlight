@@ -65,7 +65,7 @@ export default function About() {
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
                 I left my job at the Phillips 66 Sweeny Refinery in May 2022, and I began learning HTML/CSS/JavaScript soon after.
-                With the help of weekly mentoring sessions from a brilliant data scientist friend and some Udemy courses, I've learned 
+                With the help of weekly mentoring sessions from a brilliant data scientist friend and some Udemy courses, I&apos;ve learned 
                 about React, NextJS, Tailwind, TypeScript, and other useful frameworks and libraries.
               </p>
               <p>
