@@ -17,9 +17,6 @@ import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
 import Phillips66 from '@/images/logos/Phillips66.png'
 import whitebg from '@/images/logos/whitebg.jpg'
-// import { generateRssFeed } from '@/lib/generateRssFeed'
-// import { getAllArticles } from '@/lib/getAllArticles'
-import { formatDate } from '@/lib/formatDate'
 
 function BriefcaseIcon(props) {
   return (
@@ -238,17 +235,3 @@ export default function Home() {
     </>
   )
 }
-
-// export async function getStaticProps() {
-//   if (process.env.NODE_ENV === 'production') {
-//     await generateRssFeed()
-//   }
-
-//   return {
-//     props: {
-//       articles: (await getAllArticles())
-//         .slice(0, 4)
-//         .map(({ component, ...meta }) => meta),
-//     },
-//   }
-// }
