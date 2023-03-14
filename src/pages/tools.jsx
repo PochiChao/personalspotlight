@@ -30,23 +30,17 @@ export default function Uses() {
     <>
       <Head>
         <title>Tools - Pochi Chao</title>
-        <meta
-          name="description"
-          content="Tools for the job."
-        />
+        <meta name="description" content="Tools for the job." />
       </Head>
-      <SimpleLayout
-        title="Tools for the job."
-        intro=""
-      >
+      <SimpleLayout title="Tools for the job." intro="">
         <div className="space-y-16">
           <ToolsSection title="Workstation">
-            <Tool title='M1 Macbook Air with 8GB RAM, 256GB SSD'>
+            <Tool title="M1 Macbook Air with 8GB RAM, 256GB SSD">
               More than enough power for my level of development while also
               having outstanding battery life within a light chassis.
             </Tool>
             <Tool title='27" Dell IPS LED QHD Monitor for home use'>
-              Big screen for big developing. I pair this with a {" "}
+              Big screen for big developing. I pair this with a{' '}
               <Link
                 href="https://www.amazon.com/gp/product/B075JYG2TB/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&th=1"
                 className="text-blue-400"
@@ -66,10 +60,12 @@ export default function Uses() {
           </ToolsSection>
           <ToolsSection title="Development tools">
             <Tool title="VS Code with Prettier">The gold standard.</Tool>
-            <Tool title="iTerm2">
-              Simple and clean UI, and I personally prefer having a separate
-              window for my terminal vs. the built-in one in VS Code.
+            <Tool title="PyCharm">
+              {' '}
+              This is what I use for Python development since the default
+              configuration is so well optimized for Python.
             </Tool>
+            <Tool title="iTerm2">Simple and clean UI.</Tool>
           </ToolsSection>
           <ToolsSection title="Design">
             <Tool title="Figma">
@@ -89,8 +85,8 @@ export default function Uses() {
             </Tool>
             <Tool title="Rocketbook Fusion">
               For when the tactile feedback of physically writing or diagramming
-              problems is needed. The ability to quickly scan pages and send them 
-              to 7 different programmable destinations is very useful too.
+              problems is needed. The ability to quickly scan pages and send
+              them to 7 different programmable destinations is very useful too.
             </Tool>
           </ToolsSection>
         </div>

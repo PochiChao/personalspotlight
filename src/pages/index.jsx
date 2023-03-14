@@ -85,7 +85,7 @@ function Resume() {
       title: 'Crude + Coker Maintenance Eng.',
       logo: Phillips66,
       start: '2020',
-      end: '2022'
+      end: '2022',
     },
     {
       company: 'Phillips 66',
@@ -143,7 +143,11 @@ function Resume() {
           </li>
         ))}
       </ol>
-      <Button href="https://drive.google.com/file/d/1wJl16oCGwXoz7KvKZ6HlrSDr40P2Tf__/view?usp=share_link" variant="secondary" className="group mt-6 w-full">
+      <Button
+        href="https://docs.google.com/document/d/1pvYHedliNqPh-Ls0Nq0PoisWiXLIFiBjs4bGHhskQZ0/edit?usp=sharing"
+        variant="secondary"
+        className="group mt-6 w-full"
+      >
         Link to CV
         <ArrowRightIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>
@@ -159,7 +163,7 @@ function Photos() {
           <div
             key={image.src}
             className={clsx(
-              'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl',
+              'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl'
             )}
           >
             <Image
@@ -179,9 +183,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>
-          Pochi Chao
-        </title>
+        <title>Pochi Chao</title>
         <meta
           name="description"
           content="Hi! I'm Pochi, a software designer and mechanical engineer based in Houston, TX.
@@ -195,9 +197,10 @@ export default function Home() {
             Software designer, mechanical engineer, and amateur chef.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Hi! I&apos;m Pochi, a software designer and mechanical engineer based in Houston, TX.
-            I&apos;m currently learning Python and data science, and I&apos;m interested in applications for 
-            Large Language Model (LLM) Artificial Intelligence (AI), clean energy technologies, 
+            Hi! I&apos;m Pochi, a software designer and mechanical engineer
+            based in Houston, TX. I&apos;m currently learning Python and data
+            science, and I&apos;m interested in applications for Large Language
+            Model (LLM) Artificial Intelligence (AI), clean energy technologies,
             data analysis in sports, and manufacturing in the US.
           </p>
           <div className="mt-6 flex gap-6">

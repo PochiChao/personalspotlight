@@ -43,7 +43,7 @@ export default function About() {
         <title>About - Pochi Chao</title>
         <meta
           name="description"
-          content="I’m Pochi Chao. I live in New York City, where I design the future."
+          content="I'm Pochi Chao, based out of Houston, TX."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -60,32 +60,50 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Pochi Chao, based out of Houston, TX.
+              I&apos;m Pochi Chao, based out of Houston, TX.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I left my job at the Phillips 66 Sweeny Refinery in May 2022, and I began learning HTML/CSS/JavaScript soon after.
-                With the help of weekly mentoring sessions from a brilliant data scientist friend and some Udemy courses, I&apos;ve learned 
-                about React, NextJS, Tailwind, TypeScript, and other useful frameworks and libraries. I&apos;m currently learning Python.
+                I left my job at the Phillips 66 Sweeny Refinery in May 2022,
+                and I began learning HTML/CSS/JavaScript soon after. With the
+                help of weekly mentoring sessions from a brilliant data
+                scientist friend and some Udemy courses, I&apos;ve learned about
+                React, NextJS, Tailwind, TypeScript, and other useful frameworks
+                and libraries. I&apos;m currently learning Python and working on
+                gaining experience with data analysis + visualization tools.
               </p>
               <p>
-                The problems and fields that currently interest me are: clean energy technologies, 
-                applications for Large Language Model (LLM) AI, data analysis in sports, and manufacturing in the US.
+                The problems and fields that currently interest me are: clean
+                energy technologies, applications for Large Language Model (LLM)
+                AI, data analysis in sports, and manufacturing in the US.
               </p>
               <p>
-                My other interests are cooking and hosting meals for friends and family, yoga, bouldering, sand volleyball, and running.
+                My other interests are cooking and hosting meals for friends and
+                family, yoga, bouldering, sand volleyball, and running.
               </p>
             </div>
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink href="https://www.instagram.com/pochichao/" icon={InstagramIcon} className="mt-4">
+              <SocialLink
+                href="https://www.instagram.com/pochichao/"
+                icon={InstagramIcon}
+                className="mt-4"
+              >
                 Follow on Instagram
               </SocialLink>
-              <SocialLink href="https://github.com/PochiChao" icon={GitHubIcon} className="mt-4">
+              <SocialLink
+                href="https://github.com/PochiChao"
+                icon={GitHubIcon}
+                className="mt-4"
+              >
                 Follow on GitHub
               </SocialLink>
-              <SocialLink href="https://www.linkedin.com/in/steven-chao-67694079/" icon={LinkedInIcon} className="mt-4">
+              <SocialLink
+                href="https://www.linkedin.com/in/steven-chao-67694079/"
+                icon={LinkedInIcon}
+                className="mt-4"
+              >
                 Follow on LinkedIn
               </SocialLink>
               <SocialLink
