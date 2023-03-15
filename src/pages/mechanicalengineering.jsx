@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import Head from 'next/head'
-import Link from 'next/link'
-import clsx from 'clsx'
+
 import { Container } from '@/components/Container'
 import tempEnclosure from '@/images/sketches/CokerMainFracNozzleEnclosureWeldingDetail.png'
 import amineTower from '@/images/sketches/AmineTowerPWHTBands2.png'
@@ -43,7 +42,7 @@ export default function MechEng() {
         </h1>
         <div className="grid grid-cols-2 gap-y-16 lg:grid-rows-[auto_1fr] lg:gap-y-12">
           {prevWork.map((item, itemIndex) => (
-            <div>
+            <div key={item.name}>
               <div className="">
                 <div className="max-w-xs px-2.5 lg:max-w-none">
                   <Image
