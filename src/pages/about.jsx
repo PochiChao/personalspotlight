@@ -90,21 +90,21 @@ export default function About() {
                 icon={InstagramIcon}
                 className="mt-4"
               >
-                Follow on Instagram
+                Instagram
               </SocialLink>
               <SocialLink
                 href="https://github.com/PochiChao"
                 icon={GitHubIcon}
                 className="mt-4"
               >
-                Follow on GitHub
+                GitHub
               </SocialLink>
               <SocialLink
                 href="https://www.linkedin.com/in/steven-chao-67694079/"
                 icon={LinkedInIcon}
                 className="mt-4"
               >
-                Follow on LinkedIn
+                LinkedIn
               </SocialLink>
               <SocialLink
                 href="mailto:stevenpchao@gmail.com"

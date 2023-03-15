@@ -11,7 +11,7 @@ const projects = [
   {
     name: 'House of {currentSeason}',
     description:
-      'A website for the seasonal multi-course meals that I host for friends and family!',
+      'A website for the seasonal multi-course meals that I host for friends and family! Used TailwindCSS, TypeScript, Next.js, React.',
     link: {
       href: 'https://houseofseason.vercel.app',
       label: 'houseofseason.vercel.app',
@@ -21,17 +21,21 @@ const projects = [
   {
     name: 'Recce',
     description:
-      "Uses OpenAI's GPT-3 to recommend media (e.g. books, TV shows) based on a base reference and optional search refinement.",
+      "Uses OpenAI's GPT-3 to recommend media (e.g. books, TV shows) based on a base reference and optional search refinement. Used TailwindCSS, TypeScript, Next.js, React.",
     link: {
-      href: 'https://recce-zeta.vercel.app/',
-      label: 'recce-zeta.vercel.app/',
+      href: 'https://recce-zeta.vercel.app',
+      label: 'recce-zeta.vercel.app',
     },
     logo: logoRecce,
   },
   {
     name: 'Damocles - incomplete',
-    description: 'A website with a simple UI for reading breaking news.',
-    link: { href: '#', label: 'github.com' },
+    description:
+      'A website with a simple UI for reading breaking news. Used TailwindCSS, TypeScript, Next.js, React.',
+    link: {
+      href: 'https://github.com/PochiChao/damocles',
+      label: 'github.com',
+    },
     logo: logoDamocles,
   },
 ]

@@ -25,10 +25,11 @@ export function Footer() {
                 <NavLink href="/learning">Learning</NavLink>
                 <NavLink href="/projects">Projects</NavLink>
                 <NavLink href="/tools">Tools</NavLink>
+                <NavLink href="/mechanicalengineering">MechEng</NavLink>
               </div>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                &copy; {new Date().getFullYear()} Steven &quot;Pochi&quot; Chao. All rights
-                reserved.
+                &copy; {new Date().getFullYear()} Steven &quot;Pochi&quot; Chao.
+                All rights reserved.
               </p>
             </div>
           </Container.Inner>
