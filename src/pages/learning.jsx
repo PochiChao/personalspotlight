@@ -46,8 +46,9 @@ export default function Learnings() {
                 href="https://www.udemy.com/course/the-complete-web-development-bootcamp/"
                 className="text-blue-400"
               >
-                Covers HTML, CSS, JavaScript, Node + Express, React, MongoDB,
-                and some Web3 stuff.
+                Covers HTML, CSS, JavaScript, Node + Express, EJS for
+                templating, React, Authentication + Security, MongoDB + Mongoose
+                ODM.
               </Link>
             </Learning>
             <Learning title="Udemy - '100 Days of Code: The Complete Python Pro Bootcamp for 2023' by Angela Yu">

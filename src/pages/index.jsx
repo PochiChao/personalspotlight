@@ -2,7 +2,6 @@ import Image from 'next/image'
 import Head from 'next/head'
 import Link from 'next/link'
 import clsx from 'clsx'
-
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import {
@@ -16,7 +15,7 @@ import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
 import Phillips66 from '@/images/logos/Phillips66.png'
-import whitebg from '@/images/logos/whitebg.jpg'
+import technologist from '@/images/logos/technologist.png'
 
 function BriefcaseIcon(props) {
   return (
@@ -73,7 +72,7 @@ function Resume() {
     {
       company: 'Self-Taught',
       title: 'Learning Web Dev, Data Science',
-      logo: whitebg,
+      logo: technologist,
       start: '2022',
       end: {
         label: 'Present',
@@ -107,7 +106,7 @@ function Resume() {
     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BriefcaseIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Work</span>
+        <span className="ml-3">Experience</span>
       </h2>
       <ol className="mt-6 space-y-4">
         {resume.map((role, roleIndex) => (
@@ -186,7 +185,7 @@ export default function Home() {
         <title>Pochi Chao</title>
         <meta
           name="description"
-          content="Hi! I'm Pochi, a software designer and mechanical engineer based in Houston, TX.
+          content="Hi! I'm Pochi, a software developer and mechanical engineer based in Houston, TX.
           I’m currently learning Python and data science, and I'm interested in Artificial Intelligence (AI),
           clean energy technologies, and data analysis in sports."
         />
@@ -194,10 +193,10 @@ export default function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software designer, mechanical engineer, and amateur chef.
+            Software developer, mechanical engineer, and amateur chef.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Hi! I&apos;m Pochi, a software designer and mechanical engineer
+            Hi! I&apos;m Pochi, a software developer and mechanical engineer
             based in Houston, TX. I&apos;m currently learning Python and data
             science, and I&apos;m interested in applications for Large Language
             Model (LLM) Artificial Intelligence (AI), clean energy technologies,

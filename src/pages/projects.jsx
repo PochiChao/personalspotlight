@@ -7,26 +7,30 @@ import logoHouseofSeason from '@/images/logos/houseofseason.png'
 import logoRecce from '@/images/logos/Recce.jpg'
 import logoDamocles from '@/images/logos/damocles.jpg'
 
-
 const projects = [
   {
     name: 'House of {currentSeason}',
     description:
       'A website for the seasonal multi-course meals that I host for friends and family!',
-    link: { href: 'https://houseofseason.vercel.app', label: 'houseofseason.vercel.app' },
+    link: {
+      href: 'https://houseofseason.vercel.app',
+      label: 'houseofseason.vercel.app',
+    },
     logo: logoHouseofSeason,
   },
   {
     name: 'Recce',
     description:
-      'Uses OpenAI\'s GPT-3 to recommend media (e.g. books, TV shows) based on a base reference and optional search refinement.',
-    link: { href: 'https://recce-zeta.vercel.app/', label: 'recce-zeta.vercel.app/' },
+      "Uses OpenAI's GPT-3 to recommend media (e.g. books, TV shows) based on a base reference and optional search refinement.",
+    link: {
+      href: 'https://recce-zeta.vercel.app/',
+      label: 'recce-zeta.vercel.app/',
+    },
     logo: logoRecce,
   },
   {
     name: 'Damocles - incomplete',
-    description:
-      'A website with a simple UI for reading breaking news.',
+    description: 'A website with a simple UI for reading breaking news.',
     link: { href: '#', label: 'github.com' },
     logo: logoDamocles,
   },
@@ -48,14 +52,9 @@ export default function Projects() {
     <>
       <Head>
         <title>Projects - Pochi Chao</title>
-        <meta
-          name="description"
-          content=""
-        />
+        <meta name="description" content="" />
       </Head>
-      <SimpleLayout
-        title="A few things I've worked on since June 2022, the start of my developer journey."
-      >
+      <SimpleLayout title="A few things I've worked on since June 2022, the start of my developer journey.">
         <ul
           role="list"
           className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
