@@ -9,9 +9,9 @@ import logoDamocles from '@/images/logos/damocles.jpg'
 
 const projects = [
   {
-    name: 'House of {currentSeason}',
+    name: 'House of {Season}',
     description:
-      'A website for the seasonal multi-course meals that I host for friends and family! Used TailwindCSS, TypeScript, Next.js, React.',
+      'A website for the seasonal multi-course meals that I host for friends and family! Used Prisma with MongoDB, TailwindCSS, TypeScript, Next.js, React.',
     link: {
       href: 'https://houseofseason.vercel.app',
       label: 'houseofseason.vercel.app',
@@ -21,7 +21,7 @@ const projects = [
   {
     name: 'Recce',
     description:
-      "Uses OpenAI's GPT-3 to recommend media (e.g. books, TV shows) based on a base reference and optional search refinement. Used TailwindCSS, TypeScript, Next.js, React.",
+      "Uses OpenAI's GPT-4 to recommend media (e.g. books, TV shows) based on a base reference and optional search refinement. Used TailwindCSS, TypeScript, Next.js, React.",
     link: {
       href: 'https://recce-zeta.vercel.app',
       label: 'recce-zeta.vercel.app',
