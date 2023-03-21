@@ -5,7 +5,7 @@ import { Container } from '@/components/Container'
 import tempEnclosure from '@/images/sketches/CokerMainFracNozzleEnclosureWeldingDetail.png'
 import amineTower from '@/images/sketches/AmineTowerPWHTBands2.png'
 import pipingIso from '@/images/sketches/PipingIsometric.png'
-import bellevilleCalc from '@/images/sketches/HeatExchangerBellevilleWashers.png'
+import bellevilleCalc from '@/images/sketches/HeatExchangersBellevilleWashers.png'
 
 export default function MechEng() {
   const prevWork = [
