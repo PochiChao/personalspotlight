@@ -21,7 +21,7 @@ const projects = [
   {
     name: 'Recce',
     description:
-      "Uses OpenAI's GPT-4 to recommend media (e.g. books, TV shows) based on a base reference and optional search refinement. Used TailwindCSS, TypeScript, Next.js, React.",
+      "Uses OpenAI's GPT-3.5-turbo to recommend media (e.g. books, TV shows) based on a base reference and optional search refinement. Used TailwindCSS, TypeScript, Next.js, React.",
     link: {
       href: 'https://recce-zeta.vercel.app',
       label: 'recce-zeta.vercel.app',
