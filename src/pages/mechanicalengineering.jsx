@@ -5,6 +5,7 @@ import { Container } from '@/components/Container'
 import tempEnclosure from '@/images/sketches/CokerMainFracNozzleEnclosureWeldingDetail.png'
 import amineTower from '@/images/sketches/AmineTowerPWHTBands2.png'
 import pipingIso from '@/images/sketches/PipingIsometric.png'
+import bellevilleCalc from '@/images/sketches/HeatExchangerBellevilleWashers.png'
 
 export default function MechEng() {
   const prevWork = [
@@ -25,6 +26,12 @@ export default function MechEng() {
       description:
         "Designed piping isometrics for the repair or replacement of thinning or leaking piping across the refinery's different units.",
       img: pipingIso,
+    },
+    {
+      name: 'Heat Exchanger Belleville Washers',
+      description:
+        'Built calculator for determining successful Belleville (spring) washers for maintaining bolt load on heat exchanger flanges in cyclic or high-risk conditions.',
+      img: bellevilleCalc,
     },
   ]
   return (
