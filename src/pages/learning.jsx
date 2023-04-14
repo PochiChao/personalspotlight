@@ -112,6 +112,21 @@ export default function Learnings() {
               thorough explanations of bugs.
             </Learning>
           </LearningSection>
+          <LearningSection title="Learning Leetcode / General Coding Patterns">
+            <Learning title="Emre Bolat's Coding Patterns Articles">
+              {' '}
+              <Link
+                href="https://emre.me/categories/#coding-patterns"
+                className="text-blue-400"
+              >
+                Emre Bolat&apos;s series of articles
+              </Link>{' '}
+              covers many common coding patterns you encounter on Leetcode, and
+              he provides Python coding examples, how to identify when the
+              pattern would be useful, and example Leetcode problems that can be
+              solved using those patterns.
+            </Learning>
+          </LearningSection>
         </div>
       </SimpleLayout>
     </>
