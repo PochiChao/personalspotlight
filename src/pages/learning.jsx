@@ -114,7 +114,6 @@ export default function Learnings() {
           </LearningSection>
           <LearningSection title="Learning Leetcode / General Coding Patterns">
             <Learning title="Emre Bolat's Coding Patterns Articles">
-              {' '}
               <Link
                 href="https://emre.me/categories/#coding-patterns"
                 className="text-blue-400"
