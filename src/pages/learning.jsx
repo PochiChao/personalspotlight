@@ -102,7 +102,7 @@ export default function Learnings() {
               entertaining yet info-packed videos.
             </Learning>
           </LearningSection>
-          <LearningSection title="Troubleshooting Refs other than StackOverflow">
+          <LearningSection title="Troubleshooting Guide Other than StackOverflow">
             <Learning title="BobbyHadz">
               So, so many common web development bugs are catalogued in{' '}
               <Link href="https://bobbyhadz.com/" className="text-blue-400">
@@ -112,7 +112,7 @@ export default function Learnings() {
               thorough explanations of bugs.
             </Learning>
           </LearningSection>
-          <LearningSection title="Learning Leetcode / General Coding Patterns">
+          <LearningSection title="Learning Leetcode & General Coding Patterns">
             <Learning title="Emre Bolat's Coding Patterns Articles">
               <Link
                 href="https://emre.me/categories/#coding-patterns"
